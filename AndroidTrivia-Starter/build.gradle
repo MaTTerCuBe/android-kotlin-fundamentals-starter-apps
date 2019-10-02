@@ -23,6 +23,9 @@ buildscript {
         supportlibVersion = '1.0.0-rc03'
         dataBindingCompilerVersion = gradleVersion // Always need to be the same.
     }
+    ext {
+        navigationVersion = '1.0.0-rc02'
+    }
     repositories {
         google()
         jcenter()
